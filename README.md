@@ -1,7 +1,6 @@
 # BE - NT1 - Grupo 5
  - Felizzola, Andrea Soledad	felizzolandre@gmail.com
  - Garcia, Cesar Oscar	cesar.osc.garcia@gmail.com
- - Garzon, Bruno	bruno.garzon95@gmail.com
  - Bogado, Mateo Tomas	bgdtomas21@gmail.com
 
 # Sistema ERP básico 📖
@@ -16,29 +15,6 @@ Utilizar Visual Studio 2019 preferentemente y crear una aplicación utilizando A
 La idea principal de este trabajo práctico, es que Uds. se comporten como un equipo de desarrollo. Este documento, les acerca, un equivalente al resultado de una primera entrevista entre el cliente y alguien del equipo, el cual relevó e identificó la información aquí contenida. A partir de este momento, deberán comprender lo que se está requiriendo y construir dicha aplicación,
 
 Deben recopilar todas las dudas que tengan y evacuarlas con su nexo (el docente) de cara al cliente. De esta manera, él nos ayudará a conseguir la información ya un poco más procesada. Es importante destacar, que este proceso, no debe esperar a ser en clase; es importante, que junten algunas consultas, sea de índole funcional o técnicas, en lugar de enviar cada consulta de forma independiente.
-
-### Consultas
-
-Las consultas que sean realizadas por correo a mailto:federico.marchese@ort.edu.ar deben seguir el siguiente formato:
-
-Subject: [NT1-<CURSO LETRA>-GRP-<GRUPO NUMERO>] <Proyecto XXX> | Informativo o Consulta
-
-Body:
-
-1.`<xxxxxxxx>`
-
-2.`<xxxxxxxx>`
-
-### Ejemplo
-Subject: [NT1-A-GRP-5] Agenda de Turnos | Consulta
-
-Body:
-
-1.La relación del paciente con Turno es 1:1 o 1:N?
-
-2.Está bien que encaremos la validación del turno activo, con una propiedad booleana en el Turno?
-
-<hr />
 
 ## Proceso de ejecución en alto nivel ☑️
  - Crear un nuevo proyecto en [visual studio](https://visualstudio.microsoft.com/en/vs/).
