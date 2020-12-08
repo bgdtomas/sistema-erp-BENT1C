@@ -1,39 +1,13 @@
 # BE - NT1 - Grupo 5
  - Felizzola, Andrea Soledad	felizzolandre@gmail.com
  - Garcia, Cesar Oscar	cesar.osc.garcia@gmail.com
- - Bogado, Mateo Tomas	bgdtomas21@gmail.com
+ - Bogado, Mateo Tomas	mtmbogado21@gmail.com
 
 # Sistema ERP básico 📖
 ## Objetivos 📋
 Desarrollar un sistema de ERP Básico para una empresa Pyme, que permita la administración y uso de recursos en ella. 
 De cara a los empleados de RRHH: Empleados, Posiciones, Gerencias, Centros de Costo, etc. 
 Utilizar Visual Studio 2019 preferentemente y crear una aplicación utilizando ASP.NET MVC Core versión 3.1.
-
-<hr />
-
-## Enunciado 📢
-La idea principal de este trabajo práctico, es que Uds. se comporten como un equipo de desarrollo. Este documento, les acerca, un equivalente al resultado de una primera entrevista entre el cliente y alguien del equipo, el cual relevó e identificó la información aquí contenida. A partir de este momento, deberán comprender lo que se está requiriendo y construir dicha aplicación,
-
-Deben recopilar todas las dudas que tengan y evacuarlas con su nexo (el docente) de cara al cliente. De esta manera, él nos ayudará a conseguir la información ya un poco más procesada. Es importante destacar, que este proceso, no debe esperar a ser en clase; es importante, que junten algunas consultas, sea de índole funcional o técnicas, en lugar de enviar cada consulta de forma independiente.
-
-## Proceso de ejecución en alto nivel ☑️
- - Crear un nuevo proyecto en [visual studio](https://visualstudio.microsoft.com/en/vs/).
- - Adicionar todos los modelos dentro de la carpeta Models cada uno en un archivo separado.
- - Especificar todas las restricciones y validaciones solicitadas a cada una de las entidades. [DataAnnotations](https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations?view=netcore-3.1).
- - Crear las relaciones entre las entidades
- - Crear una carpeta Data que dentro tendrá al menos la clase que representará el contexto de la base de datos DbContext. 
- - Crear el DbContext utilizando base de datos en memoria (con fines de testing inicial). [DbContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.entityframeworkcore.dbcontext?view=efcore-3.1), [Database In-Memory](https://docs.microsoft.com/en-us/ef/core/providers/in-memory/?tabs=vs).
- - Agregar los DbSet para cada una de las entidades en el DbContext.
- - Crear el Scaffolding para permitir los CRUD de las entidades al menos solicitadas en el enunciado.
- - Aplicar las adecuaciones y validaciones necesarias en los controladores.  
- - Realizar un sistema de login con al menos los roles equivalentes a <Usuario Cliente> y <Usuario Administrador> (o con permisos elevados).
- - Si el proyecto lo requiere, generar el proceso de registración. 
- - Un administrador podrá realizar todas tareas que impliquen interacción del lado del negocio (ABM "Alta-Baja-Modificación" de las entidades del sistema y configuraciones en caso de ser necesarias).
- - El <Usuario Cliente> sólo podrá tomar acción en el sistema, en base al rol que tiene.
- - Realizar todos los ajustes necesarios en los modelos y/o funcionalidades.
- - Realizar los ajustes requeridos del lado de los permisos.
- - Todo lo referido a la presentación de la aplicaión (cuestiones visuales).
- - Para la visualización se recomienda utilizar [Bootstrap](https://getbootstrap.com/), pero se puede utilizar cualquier herramienta que el grupo considere.
 
 <hr />
 
